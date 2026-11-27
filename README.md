@@ -3,7 +3,7 @@
 Machine Learning project that predicts a student's **final exam result (Pass/Fail)**
 and **exact final score (0–20)** from their **previous data** — past exam marks (G1, G2),
 study habits, family and social attributes. Runs fully on **Google Colab**.
-
+Made Under the Guidance of Dr. Kailiash Chandra Bandhu and Ms. Yashasvi Sharma
 ---
 
 ## Project Structure
