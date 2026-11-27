@@ -1,0 +1,10 @@
+# Frontend requirements for Student Performance Prediction
+# (Colab already has these preinstalled — install locally with: pip install -r requirements.txt)
+streamlit>=1.30
+gradio>=4.0
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib

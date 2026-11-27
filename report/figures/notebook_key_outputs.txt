@@ -1,0 +1,39 @@
+--- cell 3 ---
+Dataset already present in folder: data
+Math file records      : 395
+Portuguese file records: 649
+
+--- cell 17 ---
+Optimal threshold (chosen via train CV): 0.33
+Test accuracy with default 0.50 : 91.39%
+Test accuracy with tuned 0.33      : 92.82%   <-- FINAL BEST
+
+--- cell 18 ---
+Classification Report (best model, tuned threshold):
+              precision    recall  f1-score   support
+
+        Fail       0.90      0.76      0.82        46
+        Pass       0.94      0.98      0.95       163
+
+    accuracy                           0.93       209
+   macro avg       0.92      0.87      0.89       209
+weighted avg       0.93      0.93      0.93       209
+
+
+--- cell 24 ---
+INPUT students (previous data given to the model):
+
+--- cell 24 ---
+==============================================================
+STUDENT 1: G1=15, G2=16, studytime=3, absences=2
+  -> Classification: Pass  (P(pass) = 100.0%)
+  -> Predicted final score: 16.37 / 20
+  -> Advice: Excellent performance, keep it up!
+==============================================================
+STUDENT 2: G1=8, G2=7, studytime=1, absences=12
+  -> Classification: Fail  (P(pass) = 1.9%)
+  -> Predicted final score: 7.38 / 20
+  -> Advice: High risk of failing - more study time, fewer absences.
+
+Best models saved to models/ folder.
+
